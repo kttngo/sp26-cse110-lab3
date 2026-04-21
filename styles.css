@@ -1,0 +1,11 @@
+/* External CSS file for Lab 3 */
+/* This file contains basic styling and comments */
+
+body {
+  background-color: lightyellow;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: blueviolet;
+}
