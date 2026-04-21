@@ -20,11 +20,13 @@ header {
 
 body {
   background-color: lightgray;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
 }
 
 h1 {
   color: rgb(105, 7, 225);
+  text-decoration: underline;
   font-size: 2rem;
 }
 
@@ -51,6 +53,7 @@ strong {
 section {
   background-color: color(display-p3 1 0.9 1);
   padding: 2vw;
+  display: block;
   border-style: solid;
   border-color: black;
   border-width: 1px;
@@ -68,6 +71,7 @@ section {
 
 li {
   background-color: color-mix(in srgb, rgb(253, 253, 253) 50%, rgb(171, 118, 214) 50%);
+  text-align: left;
 }
 
 /* Units & sizing */
@@ -85,4 +89,17 @@ video {
 
 img {
   width: 10cm;
+}
+
+span {
+  display: inline;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+label {
+  display: block;
 }
