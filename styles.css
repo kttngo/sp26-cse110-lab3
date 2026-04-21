@@ -3,6 +3,7 @@
 
 header {
   background-color: lightpink;
+  width: 80%;
 }
 
 body {
@@ -38,4 +39,32 @@ section {
 
 li {
   background-color: color-mix(in srgb, rgb(253, 253, 253) 50%, rgb(171, 118, 214) 50%);
+}
+
+/* Units & sizing */
+main {
+  width: 80%;
+  min-width: 300px;
+  max-width: 1000px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+section {
+  padding: 2vw;
+}
+
+/* Absolute */
+p {
+  font-size: 15px;
+}
+
+video {
+  height: 50mm;
+}
+
+img {
+  width: 10cm;
 }
