@@ -17,7 +17,6 @@ header {
   margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
 }
 
 body {
@@ -159,5 +158,80 @@ nav ul {
     margin: 10px auto;
     width: 100%;
     box-sizing: border-box;
+  }
+}
+
+/* Selectors */
+
+/* Class selector */
+.highlight {
+  background-color: yellow;
+}
+
+/* ID selector */
+#agenda {
+  border: 2px solid rgb(238, 255, 0);
+}
+
+/* universal selector */
+* {
+  box-sizing: border-box;
+}
+
+/* element selector */
+h2 {
+  font-style: italic;
+}
+
+/* attribute selector */
+input[type="text"] {
+  border: 2px solid rgb(240, 108, 0);
+}
+
+/* pseudo-class selector */
+input:focus {
+  background-color: lightyellow;
+}
+
+/* selector list */
+h1, h2, h3 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* descendant */
+section p {
+  color: rgb(33, 194, 180);
+}
+
+/* child */
+nav > ul {
+  background-color: rgb(235, 198, 207);
+}
+
+/* general sibling */
+h2 ~ p {
+  font-size: 0.95rem;
+}
+
+/* adjacent sibling */
+h2 + p {
+  font-weight: bold;
+}
+
+/* combining selectors */
+li.highlight {
+  border: 2px solid rgb(221, 0, 255);
+}
+
+/* :has() */
+section:has(h3) {
+  border: 3px solid rgb(0, 51, 255);
+  background-color: lightyellow;
+}
+
+/* nested selector */
+section {
+  & p {
+    line-height: 1.5;
   }
 }
