@@ -1,11 +1,41 @@
 /* External CSS file for Lab 3 */
 /* This file contains basic styling and comments */
 
+header {
+  background-color: lightpink;
+}
+
 body {
-  background-color: lightyellow;
-  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-  color: blueviolet;
+  color: rgb(105, 7, 225);
+}
+
+p {
+  color: #0b0b0b;
+}
+
+footer {
+  background-color: hsla(300, 64%, 36%, 0.3);
+}
+
+/* CSS variable with fallback */
+:root {
+  --main-color: rgb(0, 0, 250);
+}
+
+strong {
+  color: var(--main-color, black);
+}
+
+/* Wider-gamut color */
+section {
+  background-color: color(display-p3 1 0.9 1);
+}
+
+li {
+  background-color: color-mix(in srgb, rgb(253, 253, 253) 50%, rgb(171, 118, 214) 50%);
 }
